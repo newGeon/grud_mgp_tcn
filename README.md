@@ -10,6 +10,6 @@ MIMIC-III datatabse + GUR-D &amp; MGP-TCN
 ### 1. preprocessing
 - path : ~/grud_mgp_tcn/preprocessing/
 - origin preprcossing code start
-'''
+```
 python3 deat_execution_v2_0_1.py
-'''
+```
