@@ -145,6 +145,7 @@ def fn_create_kfold_data(horizon, kfold, term_case, term_control, add_cnt, end_c
 
 
 if __name__ == "__main__":
+    # 데이터 불균형으로 kfold 관련 기존 함수 사용이 어려워서 강제적으로 kfold 적용 코드 생성을 통한 데이터 분할
     list_horizon = [0, 1, 2, 3, 4, 5, 6, 7]
     list_term_case = [62, 62, 62, 62, 62, 61, 53, 49]
     list_term_control = [558, 558, 558, 557, 5556, 553, 530, 490]
