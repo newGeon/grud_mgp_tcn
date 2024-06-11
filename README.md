@@ -7,7 +7,7 @@ MIMIC-III datatabse + GUR-D &amp; MGP-TCN
 - Data Augmentation partial algorithm (GRU-D) added based on the above Github code (English)
 
 ## Code Execution
-### 1. preprocessing
+### 1. Preprocessing
 - path : ~/grud_mgp_tcn/preprocessing/
 - Origin preprocessing code start
 ```
@@ -25,4 +25,11 @@ python3 deta_execution_v2_2_1.py
 - Clinical preprocessing code start
 ```
 python3 deta_execution_v2_3_1.py
+```
+
+### 2. Train Data 
+- path : ~/grud_mgp_tnc/src
+- Train Starting from Oring Data
+```
+python3 
 ```
